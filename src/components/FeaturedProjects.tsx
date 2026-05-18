@@ -35,7 +35,7 @@ const projects = [
     title: "Portfolio & Personal Brand Website",
     description:
       "A high-performance developer portfolio built with React and Tailwind CSS to showcase projects, technical skills, and case studies with modern animations and responsive design.",
-    image: '../../public/portfolio.webp',
+    image: 'https://paulwanjaiya.netlify.app/portfolio.webp',
     stack: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
     highlights: [
       "Modern UI/UX",
