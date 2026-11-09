@@ -57,7 +57,7 @@ export function ExperienceTimeline() {
             Experience
           </h2>
           <p className="mt-4 text-lg" style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA' }}>
-            Building and running systems for organisations since 2012
+            Roles and the systems I have delivered
           </p>
         </motion.div>
 

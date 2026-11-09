@@ -6,7 +6,7 @@ const categories = [
     icon: Code,
     title: "Frontend",
     color: "from-blue-500 to-cyan-400",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Bootstrap"]
+    technologies: ["React", "Tailwind CSS", "Bootstrap", "Ionic"]
   },
   {
     icon: Server,
@@ -28,9 +28,9 @@ const categories = [
   },
   {
     icon: Settings,
-    title: "DevOps",
+    title: "Delivery",
     color: "from-red-500 to-rose-400",
-    technologies: ["GitHub Actions", "GitLab CI",  "Prometheus", "Grafana"]
+    technologies: ["Git", "GitHub", "Bitbucket", "Netlify"]
   }
 ];
 

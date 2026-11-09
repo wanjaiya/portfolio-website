@@ -48,7 +48,7 @@ const projects: Project[] = [
     description:
       "A mobile delivery app that uses Bluetooth and NFC locking for contactless access control.",
     role: "Architect and implementer",
-    stack: ["Mobile", "Bluetooth", "NFC", "REST APIs"],
+    stack: ["Ionic", "Bluetooth", "NFC", "REST APIs"],
   },
   {
     title: "Cost of Credit Calculator",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     description:
       "A public tool that helps borrowers compare the full cost of credit across banks, supporting financial literacy and transparency.",
     role: "Built and maintain",
-    stack: ["Web application", "Financial calculations"],
+    stack: ["Laravel", "Financial calculations"],
     link: { label: "costofcredit.co.ke", href: "https://costofcredit.co.ke" },
   },
 ];
