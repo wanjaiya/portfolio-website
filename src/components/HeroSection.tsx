@@ -65,15 +65,18 @@ export function HeroSection() {
               </span>
             </motion.div>
 
-            <h1 className="mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '3.5rem', fontWeight: 700, lineHeight: 1.1, color: '#FAFAFA' }}>
-              Full Stack Developer Building{' '}
+            <h1 className="mb-6" style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: 'clamp(2.25rem, 4.5vw, 3.25rem)', fontWeight: 700, lineHeight: 1.1, color: '#FAFAFA' }}>
+              Senior Software Engineer building{' '}
               <span className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
-                Scalable SaaS Applications
+                backend systems, integrations and learning platforms
               </span>
             </h1>
 
-            <p className="mb-8 text-lg" style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA' }}>
-              Laravel • React • APIs • Monitoring Systems • Multi-Tenant Platforms
+            <p className="mb-4 text-lg" style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA' }}>
+              I design, build and run software for banks, development finance institutions, research organisations and government, from Open edX platforms to API integrations with enterprise systems.
+            </p>
+            <p className="mb-8 text-base" style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA' }}>
+              PHP • Laravel • REST APIs • React • MySQL • Open edX • Linux
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -113,7 +116,7 @@ export function HeroSection() {
               <div className="flex items-center gap-2 mb-4 pb-4 border-b border-[#1F1F1F]">
                 <Terminal className="w-4 h-4 text-cyan-400" />
                 <span style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '0.875rem', color: '#A1A1AA' }}>
-                  deployment-pipeline.sh
+                  profile.sh
                 </span>
                 <div className="ml-auto flex gap-2">
                   <div className="w-3 h-3 rounded-full bg-red-500/50" />
@@ -125,25 +128,21 @@ export function HeroSection() {
               <div style={{ fontFamily: 'JetBrains Mono, monospace', fontSize: '0.875rem' }} className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="text-green-400">$</span>
-                  <span className="text-[#A1A1AA]">composer run profile</span>
+                  <span className="text-[#A1A1AA]">whoami</span>
                 </div>
-                <div className="text-blue-400 ml-4 flex flex-row"> <User2 className="w-4 h-4 mr-2" /> Paul Kangethe Wanjaiya </div>
-                <div className="text-cyan-400 ml-4 flex flex-row"><Mail className="w-4 h-4 mr-2"/>  Kangethewanjaiya@gmail.com</div>
-                <div className="text-green-400 ml-4">✓ Build completed in 2.4s</div>
+                <div className="text-blue-400 ml-4 flex flex-row"><User2 className="w-4 h-4 mr-2" aria-hidden="true" />Paul Kangethe Wanjaiya</div>
+                <div className="text-cyan-400 ml-4 flex flex-row"><Mail className="w-4 h-4 mr-2" aria-hidden="true" />kangethewanjaiya@gmail.com</div>
                 <div className="mt-4 flex items-center gap-2">
                   <span className="text-green-400">$</span>
-                  <span className="text-[#A1A1AA]">docker deploy --prod</span>
+                  <span className="text-[#A1A1AA]">cat experience</span>
                 </div>
-                <div className="text-blue-400 ml-4">→ Deploying to production...</div>
-                <div className="text-cyan-400 ml-4">→ Health check: passing</div>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1, duration: 0.3 }}
-                  className="text-green-400 ml-4"
-                >
-                  ✓ Deployed successfully
-                </motion.div>
+                <div className="text-[#D4D4D8] ml-4">2018–now  Senior Software Engineer, Farwell Innovations</div>
+                <div className="text-[#D4D4D8] ml-4">2013–2018 Lead Software Developer, iCard Africa</div>
+                <div className="mt-4 flex items-center gap-2">
+                  <span className="text-green-400">$</span>
+                  <span className="text-[#A1A1AA]">cat now</span>
+                </div>
+                <div className="text-green-400 ml-4">→ Designing an agentic reporting platform on Laravel</div>
               </div>
             </div>
           </motion.div>

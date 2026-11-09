@@ -15,14 +15,14 @@ export function ContactSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 style={{ fontFamily: 'Space Grotesk, sans-serif', fontSize: '3.5rem', fontWeight: 700, color: '#FAFAFA', lineHeight: 1.1 }} className="mb-6">
-            Let's Build Something{' '}
+            Let's{' '}
             <span className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
-              Amazing Together
+              talk
             </span>
           </h2>
 
           <p className="mb-12 text-xl" style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA', maxWidth: '600px', margin: '0 auto 3rem' }}>
-            Always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            Open to senior software engineering roles, backend and integration projects, learning platform work and technical consulting.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -72,7 +72,7 @@ export function ContactSection() {
             className="pt-12 border-t border-[#1F1F1F]"
           >
             <p style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA', fontSize: '0.875rem' }}>
-              © 2026 Full Stack Developer. Building scalable solutions, one commit at a time.
+              © {new Date().getFullYear()} Paul Kangethe Wanjaiya
             </p>
           </motion.div>
         </motion.div>

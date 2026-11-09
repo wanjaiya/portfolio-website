@@ -2,37 +2,42 @@ import { motion } from "motion/react";
 
 const experiences = [
   {
-    year: "2023 - Present",
-    title: "Senior Full Stack Engineer",
+    year: "2018 - Present",
+    title: "Senior Software Engineer",
     company: "Farwell Innovations",
-    description: "Leading development of multi-tenant SaaS platform. Architected microservices infrastructure handling 1M+ requests daily.",
+    description:
+      "Architect and build web, mobile and e-learning systems for financial-sector, development and research organisations, and keep them running in production.",
     achievements: [
-      "Reduced API response time by 60%",
-      "Implemented comprehensive monitoring system",
-      "Mentored team of 5+ junior developers"
-    ]
-  },
-  
-  {
-    year: "2018 - 2022",
-    title: "Web Developer",
-    company: "Farwell Innovations",
-    description: "Developed REST APIs and database architectures for high-traffic e-commerce platform serving 100K+ daily users.",
-    achievements: [
-      "Optimized database queries (3x performance)",
-      "Implemented caching layer with Redis",
-      "Built APIs to communicate with several platforms"
+      "Architected and built REST APIs connecting Microsoft Dynamics 365 HR with mobile applications",
+      "Architected and built Acuvera, a mobile delivery app using Bluetooth and NFC locking for contactless access control",
+      "Build and run Open edX learning platforms: Erevuka, Transform Africa, Inuka SME and KfW DEG Sustainability",
+      "Built and maintain the Diamond Trust Bank corporate website and the Kenya Bankers Association Cost of Credit Calculator",
+      "Support and extend the ICIPE website; train legal professionals across Africa on a-mla.org with the African Legal Support Facility",
+      "Run code reviews, mentor junior developers and write API and architecture documentation"
     ]
   },
   {
-    year: "2019 - 2020",
-    title: "Junior Web Developer",
-    company: "Icard Africa",
-    description: "Started career building web applications. Learned software engineering fundamentals and best practices.",
+    year: "2013 - 2018",
+    title: "Lead Software Developer",
+    company: "iCard Africa",
+    description:
+      "Led design and delivery of business systems from requirements through deployment, training and support.",
     achievements: [
-      "Contributed to 5+ Laravel projects",
-      "Mastered MVC architecture",
-      "Developed strong problem-solving skills"
+      "Architected and built a nationwide subsidy distribution system for the Ministry of Agriculture, including client training and support",
+      "Gathered requirements with stakeholders and translated them into system designs across the full SDLC",
+      "Integrated databases and third-party systems; wrote unit tests, test scripts and QA procedures",
+      "Wrote technical proposals for ICT tenders"
+    ]
+  },
+  {
+    year: "2012",
+    title: "Technology Officer",
+    company: "AREA254",
+    description:
+      "Delivered and supported business systems for clients, from e-commerce to logistics.",
+    achievements: [
+      "Built a cargo freight management system for Andy Forwarders, including training and onboarding",
+      "Built a Magento shopping cart system and deployed Vtiger CRM for clients"
     ]
   }
 ];
@@ -52,7 +57,7 @@ export function ExperienceTimeline() {
             Experience
           </h2>
           <p className="mt-4 text-lg" style={{ fontFamily: 'Inter, sans-serif', color: '#A1A1AA' }}>
-            Journey from Laravel developer to SaaS architect
+            Building and running systems for organisations since 2012
           </p>
         </motion.div>
 

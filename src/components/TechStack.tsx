@@ -12,7 +12,7 @@ const categories = [
     icon: Server,
     title: "Backend",
     color: "from-purple-500 to-pink-400",
-    technologies: ["Laravel", "Python", "PHP", "REST APIs"]
+    technologies: ["PHP", "Laravel", "REST APIs", "Node.js", "Python"]
   },
   {
     icon: Database,
@@ -24,7 +24,7 @@ const categories = [
     icon: Cloud,
     title: "Infrastructure",
     color: "from-orange-500 to-yellow-400",
-    technologies: ["Docker", "AWS", "DigitalOcean", "Nginx", "Caddy", "Tutor"]
+    technologies: ["Linux / Ubuntu", "DigitalOcean", "Docker", "Nginx", "Caddy", "Open edX (Tutor)"]
   },
   {
     icon: Settings,
